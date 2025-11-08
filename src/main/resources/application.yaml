@@ -1,0 +1,11 @@
+server:
+  port: 9090
+  ssl:
+    enabled: true
+    key-store: <your keystore path here>
+    key-store-type: <your store type here, e.g., PKCS12 or JKS>
+    key-store-password: <your keystore password here>
+    trust-store: <your truststore path here>
+    trust-store-password: <your truststore password here>
+    trust-store-type: <your store type here, e.g., PKCS12 or JKS>
+    client-auth: need
